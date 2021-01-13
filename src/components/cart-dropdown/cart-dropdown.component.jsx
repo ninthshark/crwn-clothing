@@ -3,7 +3,7 @@ import React from "react";
 import CustomButton from "../custom-button/custom-button.component";
 import "./cart-dropdown.styles.scss";
 
-const Cart = () => (
+const CartDropdown = () => (
   <div className='cart-dropdown'>
     <div className='cart-items'>
       <CustomButton>Go to Checkout</CustomButton>
@@ -11,4 +11,4 @@ const Cart = () => (
   </div>
 );
 
-export default Cart;
+export default CartDropdown;
